@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+html{
+  font-size: 62.5%;
+  background-color: #f2f3e7;
+}
+body{
+  font: 1.6rem 'Open Sans',sans-serif;
+  margin: 0;
+}
+h1,h2,h3,h4,p,ul,figure{
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+/* theme */
+:root{
+    --color-primary: #120a1b;
+    --color-secondary: #d0d394;
+    --color-other: #ac6a35;
+    --color-last: #d6a121;
+}
+header h1{
+  line-height: 6.5rem;
+  text-align: center;
+  font-weight: 100;
+  
+}
+header h1 span{
+  vertical-align:.6rem;
+}
+main,footer{
+  max-width: 80rem;
+  margin: 0 auto;
+}
+main figure img{
+  display: block;
+  width: 100%;
+}
+main figure{
+  position: relative;
+  padding: 1rem;
+  background-color: var(--color-primary);
+  border: solid .1rem #ccc;
+  overflow: hidden;
+}
+main figure figcaption{
+  position: absolute;
+  bottom: -5rem;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: #fafafa;
+  transition: all .3s ease-in-out;
+  opacity: 0;
+  
+}
+main figcaption h2{
+  padding: 3rem 0;
+  background-color: var(--color-primary);
+  color: #fff;
+}
+main figcaption p{
+  line-height: 2.6rem;
+  padding: 2.5rem 0;
+}
+main figure:hover figcaption{
+  bottom: 50%;
+  transform: translateY(50%);
+  cursor: pointer;
+  opacity: 1;
+}
+main figure figcaption h2, main figure figcaption p{
+  text-align: center;
+}
+footer p{
+  text-align: center;
+  line-height: 2.6rem;
+  padding: 1rem;
+  color: var(--color-primary);
+}
+/* end css */
