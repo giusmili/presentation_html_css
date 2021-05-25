@@ -19,7 +19,7 @@ Dans ce dépôt le sujet est comment mettre en forme un document
     </main>
 
 ```
-<code>côté css</code>
+<code>Côté css</code>
 
 ```css
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
@@ -46,7 +46,7 @@ h1,h2,h3,h4,p,ul,figure{
 }
 
 ```
-## Nombre de fichiers
+## Type de fichiers
 * html
 * css
 * js
