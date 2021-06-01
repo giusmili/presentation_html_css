@@ -141,10 +141,15 @@ document.addEventListener("DOMContentLoaded",()=>{
     console.log(250 * tva / 100)
     ttc = 250 * tva / 100;
     console.log(prix + ttc)
-    
-    
-        
-  
-    
 
+    let nom = document.querySelectorAll('input[type="text"]')[0]
+    let buttonSubmit = document.querySelector("button")
+
+    buttonSubmit.addEventListener("click",(e)=>{
+        e.preventDefault();
+        console.log(nom.value)
+    })
+    
+    
+    
 })

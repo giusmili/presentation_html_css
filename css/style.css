@@ -12,7 +12,24 @@ h1,h2,h3,h4,p,ul,figure{
   list-style: none;
   padding: 0;
 }
-
+*{
+  box-sizing: border-box;
+}
+input,textarea{
+  border: 0;
+  font-size: inherit;
+  outline: transparent;
+  transition: all 0.5s ease-in-out;
+}
+textarea{
+  resize: none;
+  min-height: 20.0rem;
+}
+button{
+  background: none;
+  border: 0;
+  font-size: inherit;
+}
 /* theme */
 :root{
     --color-primary: #120a1b;

@@ -36,6 +36,50 @@ aside h3{
     font-weight: 300;
     text-align: center;
 }
+aside fieldset{
+    padding-top: 2rem;
+    width: auto;
+    border: solid .1rem #ac6a35;
+    border-radius: .8rem;
+}
+aside fieldset legend{
+    padding: 2rem 0.9rem;
+}
+aside input, aside label, aside textarea{
+    display: block;
+    width: 100%;
+    line-height: 4.2rem;
+    padding: .4rem;
+    
+    
+}
+aside input[type="text"], aside textarea{
+    border: solid .1rem #d0d394;
+    border-radius: .4rem;
+}
+aside input[type="text"]:focus, aside textarea:focus{
+    outline: 0.1rem solid transparent;
+    box-shadow: 0 0 1.0rem  #db0ab8;
+}
+aside textarea{
+    margin-bottom: 1rem;
+}
+aside button[type="submit"], aside input[type="submit"]{
+    display: inline-block;
+    background-color: #120a1b;
+    color: #fff;
+    line-height: 4.5rem;
+    padding: 0 .4rem;
+    border-radius: .4rem;
+    width: 20.0rem;
+    cursor: pointer;
+}
+aside button[type="submit"]::before{
+    content: url(../asset/edit.svg);
+    vertical-align: -.5rem;
+}
+
+/* mobile */
 @media screen and (max-width: 70rem){
     main{
         margin: 1%;
